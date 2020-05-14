@@ -4,5 +4,6 @@ def find_min_in_nested_arrays(src)
   min_numbers = []
   for arr in src
     min_numbers.push(arr.min)
+  end
   min_numbers
 end
